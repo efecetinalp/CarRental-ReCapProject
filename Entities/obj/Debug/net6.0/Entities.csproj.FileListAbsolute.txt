@@ -10,3 +10,6 @@ C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\obj\Debug\net6.0\Entit
 C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\bin\Debug\net6.0\Core.dll
+C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\bin\Debug\net6.0\Core.pdb
+C:\Users\Efe\source\repos\CarRental-ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
