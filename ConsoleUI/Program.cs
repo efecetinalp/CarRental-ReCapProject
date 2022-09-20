@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Business.Abstract;
+﻿using Business.Abstract;
 using Business.Concrete;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
@@ -14,19 +13,29 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarTest();
+            //CarTest();
 
             //BrandTest();
 
             //ColorTest();
 
+            //InvalidDataNameTest();
+        }
+
+        private static void InvalidDataNameTest()
+        {
+            CarManager carManager = new CarManager(new EfCarDal());
+
+            var newCar = carManager.Add(new Car { Description = " ", ColorId = 1, BrandId = 1, DailyPrice = 1000 });
+
+            Console.WriteLine(newCar.Message);
         }
 
         private static void ColorTest()
         {
             ColorManager colorManager = new ColorManager(new EfColorDal());
 
-            foreach (var color in colorManager.GetAll())
+            foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine(color.ColorName);
             }
@@ -36,7 +45,7 @@ namespace ConsoleUI
         {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
 
-            foreach (var brand in brandManager.GetAll())
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine(brand.BrandName);
             }
@@ -46,7 +55,7 @@ namespace ConsoleUI
         {
             CarManager carManager = new CarManager(new EfCarDal());
 
-            foreach (var car in carManager.GetCarDetails())
+            foreach (var car in carManager.GetCarDetails().Data)
             {
                 Console.WriteLine(car.CarName + " " + car.BrandName + " " + car.ColorName + " " + car.DailyPrice);
             }
@@ -54,4 +63,4 @@ namespace ConsoleUI
     }
 }
 
-            
+
