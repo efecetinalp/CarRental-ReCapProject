@@ -12,5 +12,6 @@ namespace Business.Constants
         public static string InvalidDataName = "Data name is invalid";
         public static string MaintenanceTime = "Server is on maintenance";
         public static string DatasListed = "Datas are listed successfully";
+        public static string FailedOperation = "Operation failed";
     }
 }

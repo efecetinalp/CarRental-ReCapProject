@@ -14,12 +14,61 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             //CarTest();
-
             //BrandTest();
-
             //ColorTest();
-
             //InvalidDataNameTest();
+            //AddUserTest();
+            //AddCustomerTest();
+            //AddSuccessRentalTest();
+
+            //FailedAddRentalTest();
+
+        }
+
+        private static void FailedAddRentalTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+            var failRentalTest = rentalManager.Add(new Rental { Id = 3, CarId = 1, CustomerId = 1, RentDate = DateTime.Today, ReturnDate = DateTime.Now });
+
+            Console.WriteLine(failRentalTest.Message.ToString());
+        }
+
+        private static void AddSuccessRentalTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+            var addRentalTest = rentalManager.Add(new Rental { Id = 2, CarId = 1, CustomerId = 1, RentDate = DateTime.Today, ReturnDate = null });
+
+            Console.WriteLine(addRentalTest.Message);
+        }
+
+        private static void AddUserTest()
+        {
+            UserManager userManager = new UserManager(new EfUserDal());
+            userManager.Add(new User { Id = 1, FirstName = "David", LastName = "Johnson", Email = "d.johnson@mail.com", Password = "123" });
+            userManager.Add(new User { Id = 2, FirstName = "Mark", LastName = "Braen", Email = "m.braen@mail.com", Password = "zdqf**2" });
+            userManager.Add(new User { Id = 3, FirstName = "Zoey", LastName = "Len", Email = "z.len@mail.com", Password = "a123ad" });
+
+            foreach (var user in userManager.GetAll().Data)
+            {
+                Console.WriteLine("{0} {1} - {2}", user.FirstName, user.LastName, user.Email);
+            }
+        }
+
+        private static void AddCustomerTest()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+
+            customerManager.Add(new Customer { Id = 1, UserId = 1, CompanyName = "Company.AG" });
+            customerManager.Add(new Customer { Id = 2, UserId = 2, CompanyName = "Another.AG" });
+            customerManager.Add(new Customer { Id = 3, UserId = 2, CompanyName = "Another.AG" });
+            customerManager.Add(new Customer { Id = 4, UserId = 3, CompanyName = "Something.AG" });
+
+            foreach (var customer in customerManager.GetAll().Data)
+            {
+                Console.WriteLine("{0} -- {2}", customer.CompanyName, customer.Id);
+            }
         }
 
         private static void InvalidDataNameTest()
