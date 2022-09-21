@@ -9,20 +9,40 @@ using System.Linq;
 
 namespace ConsoleUI
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             //CarTest();
+            //GetCarsByBrandIdTest();
+            //CarGetByIdTest();
             //BrandTest();
             //ColorTest();
             //InvalidDataNameTest();
             //AddUserTest();
             //AddCustomerTest();
             //AddSuccessRentalTest();
-
             //FailedAddRentalTest();
+        }
 
+        private static void CarGetByIdTest()
+        {
+            CarManager carManager = new CarManager(new EfCarDal());
+
+            var result = carManager.GetById(1).Data;
+            {
+                Console.WriteLine(result.Id + " " + result.Description + " " + result.ModelYear);
+            }
+        }
+
+        private static void GetCarsByBrandIdTest()
+        {
+            CarManager carManager = new CarManager(new EfCarDal());
+
+            foreach (var car in carManager.GetCarsByBrandId(2).Data)
+            {
+                Console.WriteLine(car.Id + " " + car.Description);
+            }
         }
 
         private static void FailedAddRentalTest()
