@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7lcRyDv/to5NczJAXvk8uS2Yh7x2xLMSBAPjimxYkGZk4W1bq4GuidvSNMhIm6WdXFf86m1cc1n9ceLYDBiDcw==",
+  "dgSpecHash": "4QA17lEJZm/DSMOLf3tkaUC+2xDJgFnamyT9HJMvBkSGz8VlXClsuQRs+nohilH1fcxA3XR8Z/oKy7L3ZLh4lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Efe\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Efe\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
