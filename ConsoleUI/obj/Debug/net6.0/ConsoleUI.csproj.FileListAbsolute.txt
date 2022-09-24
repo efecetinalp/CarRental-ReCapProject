@@ -67,3 +67,5 @@ C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Auto
 C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Castle.Core.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\System.IO.Pipelines.dll
