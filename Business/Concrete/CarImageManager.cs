@@ -37,9 +37,9 @@ namespace Business.Concrete
             }
 
             carImage.ImagePath = _fileStorage.Add(file, PathConstants.ImagePath);
-            carImage.Date = DateTime.Now;
+            carImage.Date = DateTime.Today;
             _carImageDal.Add(carImage);
-            return new SuccessResult();
+            return new SuccessResult(Messages.DataAdded);
         }
 
         public IResult Delete(CarImage carImage)
@@ -85,7 +85,7 @@ namespace Business.Concrete
         private IResult CheckIfCarHasImage(int carId)
         {
             var result = _carImageDal.GetAll(c => c.CarId == carId).Any();
-            if (result)
+            if (!result)
             {
                 List<CarImage> carImage = new List<CarImage>();
                 carImage.Add(new CarImage { CarId = carId, Date = DateTime.Now, ImagePath = "DefaultImage.jpg" });

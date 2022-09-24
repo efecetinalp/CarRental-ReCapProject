@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Concrete;
+using Core.Utilities.Results;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
@@ -107,6 +108,7 @@ namespace ConsoleUI
             foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine(color.ColorName);
+                Console.WriteLine(colorManager.GetAll().Success);
             }
         }
 

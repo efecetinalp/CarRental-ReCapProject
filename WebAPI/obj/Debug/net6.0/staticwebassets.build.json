@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nivtHwCxC/uLXAJZaRi3nyKrJbgqiIiWDNGNHUBzzA4=",
+  "Hash": "L2/hTsjGnSUNzG+2q27BBie5eJCzND7q0PrTlWNmiQ0=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -15,5 +15,74 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\Uploads\\DefaultImage.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/DefaultImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\DefaultImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\Uploads\\Images\\5f8c50ae-c381-4fe1-9499-514325750ba6.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/5f8c50ae-c381-4fe1-9499-514325750ba6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\5f8c50ae-c381-4fe1-9499-514325750ba6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\Uploads\\Images\\b542d264-6711-4a8d-bfa2-11ed800f27a8.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/b542d264-6711-4a8d-bfa2-11ed800f27a8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\b542d264-6711-4a8d-bfa2-11ed800f27a8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\Uploads\\Images\\DefaultImage.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/DefaultImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\DefaultImage.jpg"
+    }
+  ]
 }

@@ -8,6 +8,7 @@ namespace Core.Utilities.Results
 {
     public class Result : IResult
     {
+
         public Result(bool success, string message) : this(success)
         {
             Message = message;
@@ -18,7 +19,7 @@ namespace Core.Utilities.Results
             Success = success;
         }
 
-        public bool Success { get; }
+        public bool Success { get; } //get is read-only, set is only available in constructor
 
         public string Message { get; }
     }
