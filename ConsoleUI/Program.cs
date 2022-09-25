@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Concrete;
+using Core.Entities.Concrete;
 using Core.Utilities.Results;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
@@ -67,9 +68,9 @@ namespace ConsoleUI
         private static void AddUserTest()
         {
             UserManager userManager = new UserManager(new EfUserDal());
-            userManager.Add(new User { Id = 1, FirstName = "David", LastName = "Johnson", Email = "d.johnson@mail.com", Password = "123" });
-            userManager.Add(new User { Id = 2, FirstName = "Mark", LastName = "Braen", Email = "m.braen@mail.com", Password = "zdqf**2" });
-            userManager.Add(new User { Id = 3, FirstName = "Zoey", LastName = "Len", Email = "z.len@mail.com", Password = "a123ad" });
+            userManager.Add(new User { Id = 1, FirstName = "David", LastName = "Johnson", Email = "d.johnson@mail.com"});
+            userManager.Add(new User { Id = 2, FirstName = "Mark", LastName = "Braen", Email = "m.braen@mail.com" });
+            userManager.Add(new User { Id = 3, FirstName = "Zoey", LastName = "Len", Email = "z.len@mail.com" });
 
             foreach (var user in userManager.GetAll().Data)
             {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PEvV9fKEdfSLsSq5BDqJ5Rz2UzquQzu5sQzr0e26B+UQQz09tRR8YHZJAW2gk2v5hxbi+mQtYswnrH1NfmNcpg==",
+  "dgSpecHash": "7ezcCGKHEnmLkO41S1xaICmYkMoYBAbQ+rLOmB7OW7Mji76GVp7OyxOcnV9p+zAxAjJXx8DN+QavDa/24JOquQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Efe\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,10 @@ namespace Business.Constants
         public static string DatasListed = "Datas are listed successfully";
         public static string FailedOperation = "Operation failed";
         public static string CarImageLimitExceeded = "Reached car images limit";
+        public static string AccessTokenCreated = "Token created successfully";
+        public static string UserNotFound = "User is not found";
+        public static string PasswordError = "Password is not correct";
+        public static string SuccessfulLogin = "User logged in successfuly";
+        public static string UserAlreadyExists = "User is already exists";
     }
 }

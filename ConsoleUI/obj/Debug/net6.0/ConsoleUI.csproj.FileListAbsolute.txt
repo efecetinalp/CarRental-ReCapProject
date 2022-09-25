@@ -69,3 +69,4 @@ C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Flue
 C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\Efe\source\repos\CarRental-ReCapProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
