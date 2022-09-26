@@ -34,12 +34,12 @@ namespace Business.Concrete
         public IDataResult<User> Login(UserForLoginDto userForLoginDto)
         {
             var checkUserExists = _userService.GetByMail(userForLoginDto.Email);
-            if (checkUserExists == null)
+            if (checkUserExists.Data == null)
             {
                 return new ErrorDataResult<User>(Messages.UserNotFound);
             }
 
-            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, checkUserExists.Data.PasswordHash, checkUserExists.Data.PasswordHash))
+            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, checkUserExists.Data.PasswordHash, checkUserExists.Data.PasswordSalt))
             {
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
@@ -61,12 +61,12 @@ namespace Business.Concrete
                 Status = true
             };
             _userService.Add(user);
-            return new SuccessDataResult<User>();
+            return new SuccessDataResult<User>(user, Messages.UserRegistered);
         }
 
         public IResult UserExists(string email)
         {
-            if (_userService.GetByMail(email) != null)
+            if (_userService.GetByMail(email).Data != null)
             {
                 return new ErrorResult(Messages.UserAlreadyExists);
             }

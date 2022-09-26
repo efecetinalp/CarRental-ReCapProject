@@ -20,5 +20,6 @@ namespace Business.Constants
         public static string PasswordError = "Password is not correct";
         public static string SuccessfulLogin = "User logged in successfuly";
         public static string UserAlreadyExists = "User is already exists";
+        public static string UserRegistered = "User is created successfully";
     }
 }

@@ -146,11 +146,15 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.23.1, )"
             }
           },
           "imports": [
@@ -201,6 +205,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\Core\\Core.csproj"
+              },
               "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\Efe\\source\\repos\\CarRental-ReCapProject\\Entities\\Entities.csproj"
               }
@@ -217,9 +224,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Remotion.Linq": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
