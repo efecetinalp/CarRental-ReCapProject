@@ -140,9 +140,9 @@
               "target": "Package",
               "version": "[11.2.2, )"
             },
-            "Microsoft.AspNetCore.Http.Features": {
+            "Microsoft.AspNetCore.Http": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[2.2.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -223,12 +223,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Remotion.Linq": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

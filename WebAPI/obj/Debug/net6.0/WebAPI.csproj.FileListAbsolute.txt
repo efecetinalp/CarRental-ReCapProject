@@ -73,4 +73,3 @@ C:\Users\Efe\source\repos\CarRental-ReCapProject\WebAPI\bin\Debug\net6.0\WebAPI.
 C:\Users\Efe\source\repos\CarRental-ReCapProject\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\Efe\source\repos\CarRental-ReCapProject\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Efe\source\repos\CarRental-ReCapProject\WebAPI\bin\Debug\net6.0\Remotion.Linq.dll
