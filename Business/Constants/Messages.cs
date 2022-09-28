@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,5 +22,6 @@ namespace Business.Constants
         public static string SuccessfulLogin = "User logged in successfuly";
         public static string UserAlreadyExists = "User is already exists";
         public static string UserRegistered = "User is created successfully";
+        public static string AuthorizationDenied = "You don't have a permission for the operation";
     }
 }

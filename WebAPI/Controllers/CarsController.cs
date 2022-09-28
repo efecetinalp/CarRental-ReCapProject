@@ -18,7 +18,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getall")]
-        [Authorize("get.all")]
+        //[Authorize]
         public IActionResult GetAll()
         {
             var result = _carService.GetAll();

@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="Aspect\Autofac\Performance\" />
-    <Folder Include="Aspect\Autofac\Transaction\" />
   </ItemGroup>
 
 </Project>
